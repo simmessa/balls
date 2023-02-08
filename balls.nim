@@ -13,8 +13,8 @@ import grok/time
 import grok/kute
 import ups/sanitize
 
-import balls/spec
-import balls/style
+import ballspkg/spec
+import ballspkg/style
 
 export FailError, SkipError, ExpectedError
 
@@ -850,7 +850,7 @@ macro test*(name: string; body: untyped) =
   newBlockStmt(genSym(nskLabel, name.strVal), body)
 
 when isMainModule:
-  import balls/runner
+  import ballspkg/runner
 
   # search the tests subdirectory for tests; fall back to current directory
   main "tests", fallback = true
