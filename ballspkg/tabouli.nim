@@ -1,6 +1,6 @@
 import std/strutils
 
-import balls/style
+import ballspkg/style
 
 type
   Tabouli* = object
