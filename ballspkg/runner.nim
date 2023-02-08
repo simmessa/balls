@@ -15,10 +15,10 @@ import std/rlocks
 
 import ups/sanitize
 
-import balls/spec
-import balls/semaphores
-import balls/style
-import balls/tabouli
+import ballspkg/spec
+import ballspkg/semaphores
+import ballspkg/style
+import ballspkg/tabouli
 import balls
 
 const

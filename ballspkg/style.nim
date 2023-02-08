@@ -3,7 +3,7 @@ import std/colors
 
 import grok
 
-import balls/spec
+import ballspkg/spec
 
 type
   Styling* = distinct string
